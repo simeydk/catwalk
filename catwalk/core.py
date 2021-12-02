@@ -108,7 +108,9 @@ def project(policy: Policy, proj_term_m=1200):
         "no_deaths": no_deaths,
         "no_lapses": no_lapses,
         "no_pols_if_start": no_pols_if_start,
-        "test": (no_pols_if_start - no_deaths - no_lapses - no_pols_if).round(10),
+        "test": (no_pols_if_start - no_deaths - no_lapses - no_pols_if).round(
+            10
+        ),
         "discount_rate": discount_rate,
         "discount_factor": discount_factor,
         "v_t": v_t,

@@ -2,8 +2,8 @@
 
  A framework for Actuarial modelling.
 
- In development mode, the package can be installed by running: 
- 
+ In development mode, the package can be installed by running:
+
  ```sh
  pip install -e .
  ```
